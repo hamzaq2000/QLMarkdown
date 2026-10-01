@@ -204,7 +204,7 @@ for cfg in list_items(get_object(config_list_id), "buildConfigurations"):
     nid = new_id()
     body = body.replace(cfg, nid, 1)
     s = body
-    for key in ("APPLICATION_EXTENSION_API_ONLY", "CODE_SIGN_ENTITLEMENTS", "REGISTER_APP_GROUPS", "SKIP_INSTALL", "PROVISIONING_PROFILE_SPECIFIER", "DEVELOPMENT_TEAM", r'"CODE_SIGN_IDENTITY\[sdk=macosx\*\]"', "CODE_SIGN_IDENTITY", "CODE_SIGN_STYLE"):
+    for key in ("ENABLE_HARDENED_RUNTIME", "APPLICATION_EXTENSION_API_ONLY", "CODE_SIGN_ENTITLEMENTS", "REGISTER_APP_GROUPS", "SKIP_INSTALL", "PROVISIONING_PROFILE_SPECIFIER", "DEVELOPMENT_TEAM", r'"CODE_SIGN_IDENTITY\[sdk=macosx\*\]"', "CODE_SIGN_IDENTITY", "CODE_SIGN_STYLE"):
         s = re.sub(rf"^\t\t\t\t{key} = .*;\n", "", s, flags=re.M)
     s = re.sub(r"INFOPLIST_FILE = .*;", f"INFOPLIST_FILE = {SOURCE_DIR}/Info.plist;", s)
     s = re.sub(r"PRODUCT_BUNDLE_IDENTIFIER = .*;", f"PRODUCT_BUNDLE_IDENTIFIER = {BUNDLE_ID};", s)
@@ -215,6 +215,8 @@ for cfg in list_items(get_object(config_list_id), "buildConfigurations"):
         "\t\t\t\tCODE_SIGN_STYLE = Manual;\n"
         "\t\t\t\tCOMBINE_HIDPI_IMAGES = YES;\n"
         "\t\t\t\tENABLE_APP_SANDBOX = NO;\n"
+        # Ad-hoc signed: with the hardened runtime, library validation rejects the embedded dylib.
+        "\t\t\t\tENABLE_HARDENED_RUNTIME = NO;\n"
         "\t\t\t\tINFOPLIST_KEY_CFBundleDisplayName = \"$(TARGET_NAME)\";\n"
     )
     s = s.replace("\t\t\tbuildSettings = {\n", "\t\t\tbuildSettings = {\n" + extra, 1)

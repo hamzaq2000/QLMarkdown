@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39239857AB45696F8CB207B5"
+               BlueprintIdentifier = "6B9965E7E591AC656B520989"
                BuildableName = "QLMarkdown Viewer.app"
                BlueprintName = "QLMarkdown Viewer"
                ReferencedContainer = "container:QLMarkdown.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39239857AB45696F8CB207B5"
+            BlueprintIdentifier = "6B9965E7E591AC656B520989"
             BuildableName = "QLMarkdown Viewer.app"
             BlueprintName = "QLMarkdown Viewer"
             ReferencedContainer = "container:QLMarkdown.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39239857AB45696F8CB207B5"
+            BlueprintIdentifier = "6B9965E7E591AC656B520989"
             BuildableName = "QLMarkdown Viewer.app"
             BlueprintName = "QLMarkdown Viewer"
             ReferencedContainer = "container:QLMarkdown.xcodeproj">

@@ -308,81 +308,81 @@
 		DEF1000000000000000000C3 /* defl.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF1000000000000000000BB /* defl.c */; };
 		DEF1000000000000000000C4 /* defl.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF1000000000000000000BB /* defl.c */; };
 		E698C0D39AE7F2ACC2EA37C7 /* hashtag.c in Sources */ = {isa = PBXBuildFile; fileRef = 90F0AF38EA81F6BDFEFD4736 /* hashtag.c */; };
-		E649B08A5433E5D78E8D03CC /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EDD29E8AD8C00692964 /* linked_list.c */; };
-		30934A940789ADA0089B9F05 /* tasklist.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB429E8AD8B00692964 /* tasklist.c */; };
-		1A68A9C6416E627AF53A8DEE /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ECF29E8AD8C00692964 /* houdini_html_e.c */; };
-		ED3049B0EF148DB663971702 /* url.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83327D1E2593FB0700E76CF6 /* url.cpp */; };
-		1746118B796F93828F08F8FB /* gunzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342535F305D1ED300BC2C68 /* gunzip.swift */; };
-		5F82993535AA49B9735DBFD6 /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED929E8AD8C00692964 /* arena.c */; };
-		F427B9AD34FFED4442C8AA5E /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A2125B8E93D00B49FEC /* encode.c */; };
-		7D8E99EE8A58045F589DA187 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBA29E8AD8C00692964 /* xml.c */; };
-		28916C251429DD792B4D9F22 /* inlineimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 83760300258C1813004799ED /* inlineimage.c */; };
-		45FE7FCA17F2F08456409D83 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EDF29E8AD8C00692964 /* commonmark.c */; };
-		A64F4BBE82B49A11766CB806 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC729E8AD8C00692964 /* houdini_href_e.c */; };
-		FE301BAC42827C474FCB768F /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE029E8AD8C00692964 /* map.c */; };
-		D1782E5B672ED9AC51D584B1 /* heads_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F8825C25991BFC008C5071 /* heads_utils.cpp */; };
-		47ED78B31C6A7776A599721C /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE129E8AD8C00692964 /* html.c */; };
-		0FFF8AB089DC0B05C1230448 /* heads.c in Sources */ = {isa = PBXBuildFile; fileRef = 83F88258259906C7008C5071 /* heads.c */; };
-		371C7DAA4328C45D5B941D00 /* admonition.c in Sources */ = {isa = PBXBuildFile; fileRef = ADD0000000000000000000BB /* admonition.c */; };
-		D3AB708081BF3A89E5E416F3 /* alert.c in Sources */ = {isa = PBXBuildFile; fileRef = 376A8FF7F19F47B3AD9B463D /* alert.c */; };
-		B5700A751D421F176AC6F91A /* defl.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF1000000000000000000BB /* defl.c */; };
-		C2E56BFFCE97CFA0A0B32F4E /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE229E8AD8C00692964 /* plugin.c */; };
-		089BA2DB44C25711D83D16AD /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED529E8AD8C00692964 /* references.c */; };
-		67E0928332A9C5D9513E0E29 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A2025B8E93D00B49FEC /* decode.c */; };
-		2A5870BF94FDBCC68771ED5E /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED429E8AD8C00692964 /* utf8.c */; };
-		EB397F6C093D48D3E616B7F6 /* NSColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF951C2585367500B56FA3 /* NSColor+ext.swift */; };
-		1F507284980E276CE014D5AC /* footnotes.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE729E8AD8C00692964 /* footnotes.c */; };
-		B62B5F2EEB12BD6ECAEE4A69 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAB29E8AD8B00692964 /* autolink.c */; };
-		214BC4AC81302E67BBA554B8 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBE29E8AD8C00692964 /* buffer.c */; };
-		D1D4AAF57335F3DBCDF4933E /* c_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 8376EAE127E8C67F00AB44B8 /* c_log.c */; };
-		0DCCD76E3D2BBB9E80F7F645 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A1D25B8E93D00B49FEC /* buffer.c */; };
-		274D55B8F50BA149A84A09F2 /* checkbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 838109C625840429000AFE3C /* checkbox.c */; };
-		2AE36A4FD0A4753E2E86EB33 /* sup_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71CD2C60023E0066A195 /* sup_ext.c */; };
-		E8B696136E1FC8A4B4E438F8 /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ECA29E8AD8C00692964 /* syntax_extension.c */; };
-		0D15E1B00E1BA3869F3A91BF /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED729E8AD8C00692964 /* iterator.c */; };
-		5F9A0A75B988ABC2EC76A213 /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAF29E8AD8B00692964 /* ext_scanners.c */; };
-		8650373B4AC2AE3D4344CC6B /* highlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71C82C5FCD780066A195 /* highlight.c */; };
-		05314DE20FBBDFCAA29BD357 /* sub_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71D22C60053A0066A195 /* sub_ext.c */; };
-		BA516415016B2C953C088966 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4B99125868A7400FC58A7 /* Settings.swift */; };
-		CAD5D55D67D8919E1F54EDA0 /* syntaxhighlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 83598EF525818BCB004664D3 /* syntaxhighlight.c */; };
-		97CFC556F9C49DD3DC3A7219 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBB29E8AD8C00692964 /* cmark.c */; };
-		7B0ADAA208F6E5F8A8EE5E8D /* extra-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4F8129E92AE800692964 /* extra-extensions.c */; };
-		C79A9CC6E28C5AFDDCC1CFDF /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBD29E8AD8C00692964 /* man.c */; };
-		B6561EC0E3E6ADB9EDC26011 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EA929E8AD8B00692964 /* strikethrough.c */; };
-		246296013B9AF007F4D6B57B /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB829E8AD8B00692964 /* core-extensions.c */; };
-		29F5B3974AFAABCB06A33F6C /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED629E8AD8C00692964 /* render.c */; };
-		EFEBFD9ACDA1333EE2C99710 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAC29E8AD8B00692964 /* table.c */; };
-		97A5F85A3F451362A228CF4E /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBF29E8AD8C00692964 /* blocks.c */; };
-		43161911E33187A81EFE4703 /* mention.c in Sources */ = {isa = PBXBuildFile; fileRef = 838109C2258403CA000AFE3C /* mention.c */; };
-		35F34707A9930DDBA4236E23 /* wikilink.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD0092C9DF487BBB99BB1D /* wikilink.c */; };
-		AD0B420874C6AA338B2E7AA3 /* hashtag.c in Sources */ = {isa = PBXBuildFile; fileRef = 90F0AF38EA81F6BDFEFD4736 /* hashtag.c */; };
-		ECAEDF690044603324E99A69 /* math_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 835886B229E960050088DF7D /* math_ext.c */; };
-		EF8223E497CE679CD2893FEE /* emoji_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834CAB9A2593650800673002 /* emoji_utils.cpp */; };
-		AE1596682E07464D5C999ED9 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC029E8AD8C00692964 /* cmark_ctype.c */; };
-		BE767CF61610CF18FB32C80C /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC229E8AD8C00692964 /* inlines.c */; };
-		E843186FD22A117066702157 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376EADC27E8BD3D00AB44B8 /* Log.swift */; };
-		EA8572F4CE86EC0135119C6C /* plaintext.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED029E8AD8C00692964 /* plaintext.c */; };
-		09C275124EB49ED08888A881 /* MIMEtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 83327D2E2594066300E76CF6 /* MIMEtype.c */; };
-		8FC79671A5A87A4162015904 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EED29E8AD8C00692964 /* node.c */; };
-		18D11CF0D6B6773292E74A56 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB029E8AD8B00692964 /* tagfilter.c */; };
-		5F200A0B2469795643D69D0A /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE529E8AD8C00692964 /* scanners.c */; };
-		4852AB319A4816FBC6FC7E40 /* Settings+render.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D22E632DCA65980013EB9D /* Settings+render.swift */; };
-		5A7E6BC8F5CD02E9BE517E14 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EEB29E8AD8C00692964 /* registry.c */; };
-		8AB0362463A49FD4227EEA37 /* emoji.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EF95222585476800B56FA3 /* emoji.c */; };
-		4C14C4DC59C9050195A2C184 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC529E8AD8C00692964 /* latex.c */; };
-		5A94442A9EF99BA73F072B6F /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EEA29E8AD8C00692964 /* houdini_html_u.c */; };
-		685F0ED3F860E6CFCEAC7F2C /* libpcre2-32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D82A88277C45B500C9B99F /* libpcre2-32.a */; };
-		DD1DA0DD07C6C4509A9413AB /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 0406DF0F9640A5A43797B383 /* Yams */; };
-		ABC6FEAB567B36A6C4D682F7 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 834D676827EDF554006BECBE /* libcurl.tbd */; };
-		730CACA7DA5D95D95A52A671 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F8822C2598A5C0008C5071 /* WebKit.framework */; };
-		C0E9C5C1974B50313A2FD671 /* libwrapper_highlight.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7FEF7258FBF9F003ECF9B /* libwrapper_highlight.dylib */; };
-		1F95228A44B69B2E2EBF997F /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 87CD2E8B5D5B806D624B56B4 /* SwiftSoup */; };
-		57B49A00B41F66D91B551CA5 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 83598F22258263C0004664D3 /* default.css */; };
-		90A8F0C3CA376790250A580F /* highlight in Resources */ = {isa = PBXBuildFile; fileRef = 83E7FEF0258FBF37003ECF9B /* highlight */; };
-		7546A096D2A5C5C927B532AA /* mermaid.min.js.gz in Resources */ = {isa = PBXBuildFile; fileRef = 83425364305D20A000BC2C68 /* mermaid.min.js.gz */; };
-		8FC5BDBEE3F27BD995F97314 /* tex-mml-chtml.js.gz in Resources */ = {isa = PBXBuildFile; fileRef = 83425366305D2ACB00BC2C68 /* tex-mml-chtml.js.gz */; };
-		35092321007DDFDAED9ED313 /* icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 83CF302C306D3E8400DC36E5 /* icon.icon */; };
-		5660D07B7D2774E8B6745318 /* libwrapper_highlight.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 83E7FEF7258FBF9F003ECF9B /* libwrapper_highlight.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		46AB8E3A8A477D1F4F5FD8F6 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EDD29E8AD8C00692964 /* linked_list.c */; };
+		5F93CEAEC3172D66C53BA8AF /* tasklist.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB429E8AD8B00692964 /* tasklist.c */; };
+		D8FD50915F5100A0F33A1A90 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ECF29E8AD8C00692964 /* houdini_html_e.c */; };
+		04AE73407A0070A9E41390EC /* url.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83327D1E2593FB0700E76CF6 /* url.cpp */; };
+		E9382A7CB3A5C20A922A1737 /* gunzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342535F305D1ED300BC2C68 /* gunzip.swift */; };
+		5E5BB00DEDEE0F67A86921AD /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED929E8AD8C00692964 /* arena.c */; };
+		4D6AF4C82EE91B481B9316F8 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A2125B8E93D00B49FEC /* encode.c */; };
+		03A1E8A4656FA3116075C93C /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBA29E8AD8C00692964 /* xml.c */; };
+		306C0F85DA787C91922EE27A /* inlineimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 83760300258C1813004799ED /* inlineimage.c */; };
+		82E2471973790FE697837FCE /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EDF29E8AD8C00692964 /* commonmark.c */; };
+		905788F84ADF4C4C72E2B6EC /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC729E8AD8C00692964 /* houdini_href_e.c */; };
+		4EE98DDE7D9B3287266F3EC1 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE029E8AD8C00692964 /* map.c */; };
+		596B596444E4652E7BCE814B /* heads_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F8825C25991BFC008C5071 /* heads_utils.cpp */; };
+		C94C1D6F76DDCCDB3F3134D3 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE129E8AD8C00692964 /* html.c */; };
+		503044C798029184B09DA0B2 /* heads.c in Sources */ = {isa = PBXBuildFile; fileRef = 83F88258259906C7008C5071 /* heads.c */; };
+		AAB0776916C69E69E97E411B /* admonition.c in Sources */ = {isa = PBXBuildFile; fileRef = ADD0000000000000000000BB /* admonition.c */; };
+		EFAD0E5E071780C706E0B110 /* alert.c in Sources */ = {isa = PBXBuildFile; fileRef = 376A8FF7F19F47B3AD9B463D /* alert.c */; };
+		6D53F7EF229DCF650EC50801 /* defl.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF1000000000000000000BB /* defl.c */; };
+		931D7FDA185115E2787718DA /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE229E8AD8C00692964 /* plugin.c */; };
+		BF8762CC89D37558089633DB /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED529E8AD8C00692964 /* references.c */; };
+		E96B36C49B82AC368B9AF81B /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A2025B8E93D00B49FEC /* decode.c */; };
+		A192D980BD19A7E9C8339E25 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED429E8AD8C00692964 /* utf8.c */; };
+		A56B94357A2B7DA8F06CD7F6 /* NSColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EF951C2585367500B56FA3 /* NSColor+ext.swift */; };
+		DC307FB57E665945C93B07EF /* footnotes.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE729E8AD8C00692964 /* footnotes.c */; };
+		9A8287D3EDA6AB786A8C41B4 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAB29E8AD8B00692964 /* autolink.c */; };
+		DF688CBB5EE10BC78EAA744F /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBE29E8AD8C00692964 /* buffer.c */; };
+		1624AC94A0B6FC71383EE457 /* c_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 8376EAE127E8C67F00AB44B8 /* c_log.c */; };
+		C0C0B1B1B89F30A88C7D73B0 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 83720A1D25B8E93D00B49FEC /* buffer.c */; };
+		FB8C8F2C5DB22DB97F1E47D2 /* checkbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 838109C625840429000AFE3C /* checkbox.c */; };
+		4CA9F8B577CA258E436EFB05 /* sup_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71CD2C60023E0066A195 /* sup_ext.c */; };
+		5CBB70C0030D42C9A61705FC /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ECA29E8AD8C00692964 /* syntax_extension.c */; };
+		160FAC62087C7335758D9F8F /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED729E8AD8C00692964 /* iterator.c */; };
+		80B98CBB162CAA520D93C0ED /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAF29E8AD8B00692964 /* ext_scanners.c */; };
+		FCF0E755D3D913B2910CFFBA /* highlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71C82C5FCD780066A195 /* highlight.c */; };
+		AE64BC9601AFE00BBCDD0D52 /* sub_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 83CF71D22C60053A0066A195 /* sub_ext.c */; };
+		04B0712CA17586D0C0AB679A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4B99125868A7400FC58A7 /* Settings.swift */; };
+		9949A4793EC7A60F2BAC928B /* syntaxhighlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 83598EF525818BCB004664D3 /* syntaxhighlight.c */; };
+		CC115BFB53862FE52E942819 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBB29E8AD8C00692964 /* cmark.c */; };
+		4E58A8EED2189D92A59A1B28 /* extra-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4F8129E92AE800692964 /* extra-extensions.c */; };
+		1346715CA3EE057B34F9A45A /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBD29E8AD8C00692964 /* man.c */; };
+		BCBF5C8FA1E2CF3D655986C1 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EA929E8AD8B00692964 /* strikethrough.c */; };
+		228B0589CEA3EFF1301603D0 /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB829E8AD8B00692964 /* core-extensions.c */; };
+		E1440225A9FE570721A241D1 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED629E8AD8C00692964 /* render.c */; };
+		702655C4DBF5ED2BEC158BA0 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EAC29E8AD8B00692964 /* table.c */; };
+		E6D1D6D700F8970F3D8E4F04 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EBF29E8AD8C00692964 /* blocks.c */; };
+		64E9EAAC41F70118813ED002 /* mention.c in Sources */ = {isa = PBXBuildFile; fileRef = 838109C2258403CA000AFE3C /* mention.c */; };
+		7FFAC59A629355E8620D1587 /* wikilink.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD0092C9DF487BBB99BB1D /* wikilink.c */; };
+		A60FA030BCFEF31E902564D7 /* hashtag.c in Sources */ = {isa = PBXBuildFile; fileRef = 90F0AF38EA81F6BDFEFD4736 /* hashtag.c */; };
+		D46DDF1D7F4C8555B6E488BF /* math_ext.c in Sources */ = {isa = PBXBuildFile; fileRef = 835886B229E960050088DF7D /* math_ext.c */; };
+		5C6DEA68C3B24B85F4232E7A /* emoji_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834CAB9A2593650800673002 /* emoji_utils.cpp */; };
+		DCF780D27C416278A90FC49A /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC029E8AD8C00692964 /* cmark_ctype.c */; };
+		B181F09934AE8D1B3F4F0D4F /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC229E8AD8C00692964 /* inlines.c */; };
+		3C1309DB302390385F1CF79A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376EADC27E8BD3D00AB44B8 /* Log.swift */; };
+		F69ECEC976D45DCB1032A20C /* plaintext.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4ED029E8AD8C00692964 /* plaintext.c */; };
+		07FA0B381F169E0B0DE6C0F6 /* MIMEtype.c in Sources */ = {isa = PBXBuildFile; fileRef = 83327D2E2594066300E76CF6 /* MIMEtype.c */; };
+		E7070614BC5163919598CB31 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EED29E8AD8C00692964 /* node.c */; };
+		9A6682BC6FC321FC322B83A1 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EB029E8AD8B00692964 /* tagfilter.c */; };
+		1B1CE0B5843B54FBA56D015C /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EE529E8AD8C00692964 /* scanners.c */; };
+		334ECBBA6A2568B24E31EE1B /* Settings+render.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D22E632DCA65980013EB9D /* Settings+render.swift */; };
+		D713BA7896128C1C32118AAF /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EEB29E8AD8C00692964 /* registry.c */; };
+		B3BF38120D581963F82E7409 /* emoji.c in Sources */ = {isa = PBXBuildFile; fileRef = 83EF95222585476800B56FA3 /* emoji.c */; };
+		94518C9C566789DC2E1AF969 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EC529E8AD8C00692964 /* latex.c */; };
+		B29676EBC38C38A61D26A82D /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 834A4EEA29E8AD8C00692964 /* houdini_html_u.c */; };
+		AB7E84BD81FF8BEE827C28BF /* libpcre2-32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D82A88277C45B500C9B99F /* libpcre2-32.a */; };
+		E709E77DECAA3ABF249A9B80 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA65270A42F92688FBA59AD /* Yams */; };
+		D55FAA306843249A79CE529F /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 834D676827EDF554006BECBE /* libcurl.tbd */; };
+		2C2775D6B31C964D61284029 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F8822C2598A5C0008C5071 /* WebKit.framework */; };
+		C95F1AEDB72CFED7729D2D24 /* libwrapper_highlight.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7FEF7258FBF9F003ECF9B /* libwrapper_highlight.dylib */; };
+		C0E47070EA369BFA7239B035 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = C44B79FBEEA9F4A5C2299D58 /* SwiftSoup */; };
+		168D60666DEE31E2FAB560A3 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 83598F22258263C0004664D3 /* default.css */; };
+		BCA0FE4E7B9BB7ADDABF7A53 /* highlight in Resources */ = {isa = PBXBuildFile; fileRef = 83E7FEF0258FBF37003ECF9B /* highlight */; };
+		310F8BED4DC5ECFE2B2264CE /* mermaid.min.js.gz in Resources */ = {isa = PBXBuildFile; fileRef = 83425364305D20A000BC2C68 /* mermaid.min.js.gz */; };
+		783BA5B367EE9D3D0B3DD223 /* tex-mml-chtml.js.gz in Resources */ = {isa = PBXBuildFile; fileRef = 83425366305D2ACB00BC2C68 /* tex-mml-chtml.js.gz */; };
+		F3B724CD8516002D166DD460 /* icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 83CF302C306D3E8400DC36E5 /* icon.icon */; };
+		AA357F43180A341D3E1CB87C /* libwrapper_highlight.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 83E7FEF7258FBF9F003ECF9B /* libwrapper_highlight.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -540,28 +540,28 @@
 			remoteGlobalIDString = 83D9CCA027A12F3100E86BC9;
 			remoteInfo = libpcre2;
 		};
-		E59080DE8D44622DA5739454 /* PBXContainerItemProxy */ = {
+		A94495C0E1451116336D8519 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83598E5925818808004664D3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 834A4F7429E9250800692964;
 			remoteInfo = "cmark-headers";
 		};
-		99E47A1A336637CE3715BBDE /* PBXContainerItemProxy */ = {
+		17A76885B6C64065DEB823B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83598E5925818808004664D3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 83D9CCA027A12F3100E86BC9;
 			remoteInfo = libpcre2;
 		};
-		04E71B8E241371C84EA00D35 /* PBXContainerItemProxy */ = {
+		0B48B3351DADCA9DCB274C77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83598E5925818808004664D3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 83D9CF0F27A1334800E86BC9;
 			remoteInfo = libjpcre2;
 		};
-		408144DF01207B7CA6F8FEB8 /* PBXContainerItemProxy */ = {
+		46A98F2ED32816395DB250B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 836B7194259E226E00A6A5F7 /* highlight-wrapper.xcodeproj */;
 			proxyType = 1;
@@ -624,13 +624,13 @@
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06DD21410B2B152E5F23AC52 /* Embed Libraries */ = {
+		CC66B6E1CF4A08704AB2E566 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5660D07B7D2774E8B6745318 /* libwrapper_highlight.dylib in Embed Libraries */,
+				AA357F43180A341D3E1CB87C /* libwrapper_highlight.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -832,7 +832,7 @@
 		B0A7BA4039614C61A365D9CD /* alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alert.h; sourceTree = "<group>"; };
 		DEF1000000000000000000AA /* defl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defl.h; sourceTree = "<group>"; };
 		DEF1000000000000000000BB /* defl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = defl.c; sourceTree = "<group>"; };
-		2284DF9AF6BC40F734025C71 /* QLMarkdown Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QLMarkdown Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC93F34F06D52C52CDA587F3 /* QLMarkdown Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QLMarkdown Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -843,18 +843,18 @@
 			);
 			target = 8320D5892D1C25B1005868BD /* QLMarkdown Shortcut Extension */;
 		};
-		E3FDC627270246136AC91089 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		43478B80BAD4B041302C7BD4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 39239857AB45696F8CB207B5 /* QLMarkdown Viewer */;
+			target = 6B9965E7E591AC656B520989 /* QLMarkdown Viewer */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8320D58B2D1C25B1005868BD /* Shortcut Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8320D5982D1C25B1005868BD /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Shortcut Extension"; sourceTree = "<group>"; };
-		C8482C0F1F2F4CE8CC9BDB33 /* QLMarkdownViewer */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E3FDC627270246136AC91089 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = QLMarkdownViewer; sourceTree = "<group>"; };
+		5E99DCE1320D69D97DC60CE9 /* QLMarkdownViewer */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (43478B80BAD4B041302C7BD4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = QLMarkdownViewer; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -911,16 +911,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5721C6DC4414AF6AB247D88B /* Frameworks */ = {
+		D181A5E83CE34E401B365339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				685F0ED3F860E6CFCEAC7F2C /* libpcre2-32.a in Frameworks */,
-				DD1DA0DD07C6C4509A9413AB /* Yams in Frameworks */,
-				ABC6FEAB567B36A6C4D682F7 /* libcurl.tbd in Frameworks */,
-				730CACA7DA5D95D95A52A671 /* WebKit.framework in Frameworks */,
-				C0E9C5C1974B50313A2FD671 /* libwrapper_highlight.dylib in Frameworks */,
-				1F95228A44B69B2E2EBF997F /* SwiftSoup in Frameworks */,
+				AB7E84BD81FF8BEE827C28BF /* libpcre2-32.a in Frameworks */,
+				E709E77DECAA3ABF249A9B80 /* Yams in Frameworks */,
+				D55FAA306843249A79CE529F /* libcurl.tbd in Frameworks */,
+				2C2775D6B31C964D61284029 /* WebKit.framework in Frameworks */,
+				C95F1AEDB72CFED7729D2D24 /* libwrapper_highlight.dylib in Frameworks */,
+				C0E47070EA369BFA7239B035 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1126,7 +1126,7 @@
 				8320D58B2D1C25B1005868BD /* Shortcut Extension */,
 				83598F0525825B8D004664D3 /* Frameworks */,
 				83598E6225818808004664D3 /* Products */,
-				C8482C0F1F2F4CE8CC9BDB33 /* QLMarkdownViewer */,
+				5E99DCE1320D69D97DC60CE9 /* QLMarkdownViewer */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1137,7 +1137,7 @@
 				831A8C3F258ABADA00E36182 /* Markdown QL Extension.appex */,
 				83437971271D47DF00A5D6EA /* qlmarkdown_cli */,
 				8320D58A2D1C25B1005868BD /* QLMarkdown Shortcut Extension.appex */,
-				2284DF9AF6BC40F734025C71 /* QLMarkdown Viewer.app */,
+				EC93F34F06D52C52CDA587F3 /* QLMarkdown Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1475,35 +1475,35 @@
 			productReference = 83598E6125818808004664D3 /* QLMarkdown.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39239857AB45696F8CB207B5 /* QLMarkdown Viewer */ = {
+		6B9965E7E591AC656B520989 /* QLMarkdown Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC879E4DC1FD01F4B10C5EE8 /* Build configuration list for PBXNativeTarget "QLMarkdown Viewer" */;
+			buildConfigurationList = 69761D5409ADB4B5A99ECE2B /* Build configuration list for PBXNativeTarget "QLMarkdown Viewer" */;
 			buildPhases = (
-				26898CE44DE19A7844C9A8F7 /* Sources */,
-				5721C6DC4414AF6AB247D88B /* Frameworks */,
-				43A76726D96458595D1E5601 /* Resources */,
-				06DD21410B2B152E5F23AC52 /* Embed Libraries */,
+				3B070E500EC6F8BC03FC2931 /* Sources */,
+				D181A5E83CE34E401B365339 /* Frameworks */,
+				958EC320F353E26CE4BC9D69 /* Resources */,
+				CC66B6E1CF4A08704AB2E566 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B0042A3BB1677CE1B5410C6 /* PBXTargetDependency */,
-				2C3215B757B90ED7786794F5 /* PBXTargetDependency */,
-				9575E56713DB0DE2BDCDD2FE /* PBXTargetDependency */,
-				6503681462D2987C58BB4767 /* PBXTargetDependency */,
-				3A18B2E9BE8C8429B1E8E71E /* PBXTargetDependency */,
-				753FCD286C7324631B7728AF /* PBXTargetDependency */,
+				FE086721BDB9B3D1543AE041 /* PBXTargetDependency */,
+				B3189BE2D4202FB80D90DB37 /* PBXTargetDependency */,
+				4A68471C4EAA1B87AC8031B2 /* PBXTargetDependency */,
+				C622D7DDCACDA0201FF70060 /* PBXTargetDependency */,
+				2557C3FD11B062EEC1036B86 /* PBXTargetDependency */,
+				1EE01358DA053446691550C8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C8482C0F1F2F4CE8CC9BDB33 /* QLMarkdownViewer */,
+				5E99DCE1320D69D97DC60CE9 /* QLMarkdownViewer */,
 			);
 			name = "QLMarkdown Viewer";
 			packageProductDependencies = (
-				0406DF0F9640A5A43797B383 /* Yams */,
-				87CD2E8B5D5B806D624B56B4 /* SwiftSoup */,
+				5CA65270A42F92688FBA59AD /* Yams */,
+				C44B79FBEEA9F4A5C2299D58 /* SwiftSoup */,
 			);
 			productName = "QLMarkdown Viewer";
-			productReference = 2284DF9AF6BC40F734025C71 /* QLMarkdown Viewer.app */;
+			productReference = EC93F34F06D52C52CDA587F3 /* QLMarkdown Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1568,7 +1568,7 @@
 				83D9CCA027A12F3100E86BC9 /* libpcre2 */,
 				83D9CF0F27A1334800E86BC9 /* libjpcre2 */,
 				834A4F7429E9250800692964 /* cmark-headers */,
-				39239857AB45696F8CB207B5 /* QLMarkdown Viewer */,
+				6B9965E7E591AC656B520989 /* QLMarkdown Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -1610,15 +1610,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43A76726D96458595D1E5601 /* Resources */ = {
+		958EC320F353E26CE4BC9D69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B49A00B41F66D91B551CA5 /* default.css in Resources */,
-				90A8F0C3CA376790250A580F /* highlight in Resources */,
-				7546A096D2A5C5C927B532AA /* mermaid.min.js.gz in Resources */,
-				8FC5BDBEE3F27BD995F97314 /* tex-mml-chtml.js.gz in Resources */,
-				35092321007DDFDAED9ED313 /* icon.icon in Resources */,
+				168D60666DEE31E2FAB560A3 /* default.css in Resources */,
+				BCA0FE4E7B9BB7ADDABF7A53 /* highlight in Resources */,
+				310F8BED4DC5ECFE2B2264CE /* mermaid.min.js.gz in Resources */,
+				783BA5B367EE9D3D0B3DD223 /* tex-mml-chtml.js.gz in Resources */,
+				F3B724CD8516002D166DD460 /* icon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1910,73 +1910,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26898CE44DE19A7844C9A8F7 /* Sources */ = {
+		3B070E500EC6F8BC03FC2931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E649B08A5433E5D78E8D03CC /* linked_list.c in Sources */,
-				30934A940789ADA0089B9F05 /* tasklist.c in Sources */,
-				1A68A9C6416E627AF53A8DEE /* houdini_html_e.c in Sources */,
-				ED3049B0EF148DB663971702 /* url.cpp in Sources */,
-				1746118B796F93828F08F8FB /* gunzip.swift in Sources */,
-				5F82993535AA49B9735DBFD6 /* arena.c in Sources */,
-				F427B9AD34FFED4442C8AA5E /* encode.c in Sources */,
-				7D8E99EE8A58045F589DA187 /* xml.c in Sources */,
-				28916C251429DD792B4D9F22 /* inlineimage.c in Sources */,
-				45FE7FCA17F2F08456409D83 /* commonmark.c in Sources */,
-				A64F4BBE82B49A11766CB806 /* houdini_href_e.c in Sources */,
-				FE301BAC42827C474FCB768F /* map.c in Sources */,
-				D1782E5B672ED9AC51D584B1 /* heads_utils.cpp in Sources */,
-				47ED78B31C6A7776A599721C /* html.c in Sources */,
-				0FFF8AB089DC0B05C1230448 /* heads.c in Sources */,
-				371C7DAA4328C45D5B941D00 /* admonition.c in Sources */,
-				D3AB708081BF3A89E5E416F3 /* alert.c in Sources */,
-				B5700A751D421F176AC6F91A /* defl.c in Sources */,
-				C2E56BFFCE97CFA0A0B32F4E /* plugin.c in Sources */,
-				089BA2DB44C25711D83D16AD /* references.c in Sources */,
-				67E0928332A9C5D9513E0E29 /* decode.c in Sources */,
-				2A5870BF94FDBCC68771ED5E /* utf8.c in Sources */,
-				EB397F6C093D48D3E616B7F6 /* NSColor+ext.swift in Sources */,
-				1F507284980E276CE014D5AC /* footnotes.c in Sources */,
-				B62B5F2EEB12BD6ECAEE4A69 /* autolink.c in Sources */,
-				214BC4AC81302E67BBA554B8 /* buffer.c in Sources */,
-				D1D4AAF57335F3DBCDF4933E /* c_log.c in Sources */,
-				0DCCD76E3D2BBB9E80F7F645 /* buffer.c in Sources */,
-				274D55B8F50BA149A84A09F2 /* checkbox.c in Sources */,
-				2AE36A4FD0A4753E2E86EB33 /* sup_ext.c in Sources */,
-				E8B696136E1FC8A4B4E438F8 /* syntax_extension.c in Sources */,
-				0D15E1B00E1BA3869F3A91BF /* iterator.c in Sources */,
-				5F9A0A75B988ABC2EC76A213 /* ext_scanners.c in Sources */,
-				8650373B4AC2AE3D4344CC6B /* highlight.c in Sources */,
-				05314DE20FBBDFCAA29BD357 /* sub_ext.c in Sources */,
-				BA516415016B2C953C088966 /* Settings.swift in Sources */,
-				CAD5D55D67D8919E1F54EDA0 /* syntaxhighlight.c in Sources */,
-				97CFC556F9C49DD3DC3A7219 /* cmark.c in Sources */,
-				7B0ADAA208F6E5F8A8EE5E8D /* extra-extensions.c in Sources */,
-				C79A9CC6E28C5AFDDCC1CFDF /* man.c in Sources */,
-				B6561EC0E3E6ADB9EDC26011 /* strikethrough.c in Sources */,
-				246296013B9AF007F4D6B57B /* core-extensions.c in Sources */,
-				29F5B3974AFAABCB06A33F6C /* render.c in Sources */,
-				EFEBFD9ACDA1333EE2C99710 /* table.c in Sources */,
-				97A5F85A3F451362A228CF4E /* blocks.c in Sources */,
-				43161911E33187A81EFE4703 /* mention.c in Sources */,
-				35F34707A9930DDBA4236E23 /* wikilink.c in Sources */,
-				AD0B420874C6AA338B2E7AA3 /* hashtag.c in Sources */,
-				ECAEDF690044603324E99A69 /* math_ext.c in Sources */,
-				EF8223E497CE679CD2893FEE /* emoji_utils.cpp in Sources */,
-				AE1596682E07464D5C999ED9 /* cmark_ctype.c in Sources */,
-				BE767CF61610CF18FB32C80C /* inlines.c in Sources */,
-				E843186FD22A117066702157 /* Log.swift in Sources */,
-				EA8572F4CE86EC0135119C6C /* plaintext.c in Sources */,
-				09C275124EB49ED08888A881 /* MIMEtype.c in Sources */,
-				8FC79671A5A87A4162015904 /* node.c in Sources */,
-				18D11CF0D6B6773292E74A56 /* tagfilter.c in Sources */,
-				5F200A0B2469795643D69D0A /* scanners.c in Sources */,
-				4852AB319A4816FBC6FC7E40 /* Settings+render.swift in Sources */,
-				5A7E6BC8F5CD02E9BE517E14 /* registry.c in Sources */,
-				8AB0362463A49FD4227EEA37 /* emoji.c in Sources */,
-				4C14C4DC59C9050195A2C184 /* latex.c in Sources */,
-				5A94442A9EF99BA73F072B6F /* houdini_html_u.c in Sources */,
+				46AB8E3A8A477D1F4F5FD8F6 /* linked_list.c in Sources */,
+				5F93CEAEC3172D66C53BA8AF /* tasklist.c in Sources */,
+				D8FD50915F5100A0F33A1A90 /* houdini_html_e.c in Sources */,
+				04AE73407A0070A9E41390EC /* url.cpp in Sources */,
+				E9382A7CB3A5C20A922A1737 /* gunzip.swift in Sources */,
+				5E5BB00DEDEE0F67A86921AD /* arena.c in Sources */,
+				4D6AF4C82EE91B481B9316F8 /* encode.c in Sources */,
+				03A1E8A4656FA3116075C93C /* xml.c in Sources */,
+				306C0F85DA787C91922EE27A /* inlineimage.c in Sources */,
+				82E2471973790FE697837FCE /* commonmark.c in Sources */,
+				905788F84ADF4C4C72E2B6EC /* houdini_href_e.c in Sources */,
+				4EE98DDE7D9B3287266F3EC1 /* map.c in Sources */,
+				596B596444E4652E7BCE814B /* heads_utils.cpp in Sources */,
+				C94C1D6F76DDCCDB3F3134D3 /* html.c in Sources */,
+				503044C798029184B09DA0B2 /* heads.c in Sources */,
+				AAB0776916C69E69E97E411B /* admonition.c in Sources */,
+				EFAD0E5E071780C706E0B110 /* alert.c in Sources */,
+				6D53F7EF229DCF650EC50801 /* defl.c in Sources */,
+				931D7FDA185115E2787718DA /* plugin.c in Sources */,
+				BF8762CC89D37558089633DB /* references.c in Sources */,
+				E96B36C49B82AC368B9AF81B /* decode.c in Sources */,
+				A192D980BD19A7E9C8339E25 /* utf8.c in Sources */,
+				A56B94357A2B7DA8F06CD7F6 /* NSColor+ext.swift in Sources */,
+				DC307FB57E665945C93B07EF /* footnotes.c in Sources */,
+				9A8287D3EDA6AB786A8C41B4 /* autolink.c in Sources */,
+				DF688CBB5EE10BC78EAA744F /* buffer.c in Sources */,
+				1624AC94A0B6FC71383EE457 /* c_log.c in Sources */,
+				C0C0B1B1B89F30A88C7D73B0 /* buffer.c in Sources */,
+				FB8C8F2C5DB22DB97F1E47D2 /* checkbox.c in Sources */,
+				4CA9F8B577CA258E436EFB05 /* sup_ext.c in Sources */,
+				5CBB70C0030D42C9A61705FC /* syntax_extension.c in Sources */,
+				160FAC62087C7335758D9F8F /* iterator.c in Sources */,
+				80B98CBB162CAA520D93C0ED /* ext_scanners.c in Sources */,
+				FCF0E755D3D913B2910CFFBA /* highlight.c in Sources */,
+				AE64BC9601AFE00BBCDD0D52 /* sub_ext.c in Sources */,
+				04B0712CA17586D0C0AB679A /* Settings.swift in Sources */,
+				9949A4793EC7A60F2BAC928B /* syntaxhighlight.c in Sources */,
+				CC115BFB53862FE52E942819 /* cmark.c in Sources */,
+				4E58A8EED2189D92A59A1B28 /* extra-extensions.c in Sources */,
+				1346715CA3EE057B34F9A45A /* man.c in Sources */,
+				BCBF5C8FA1E2CF3D655986C1 /* strikethrough.c in Sources */,
+				228B0589CEA3EFF1301603D0 /* core-extensions.c in Sources */,
+				E1440225A9FE570721A241D1 /* render.c in Sources */,
+				702655C4DBF5ED2BEC158BA0 /* table.c in Sources */,
+				E6D1D6D700F8970F3D8E4F04 /* blocks.c in Sources */,
+				64E9EAAC41F70118813ED002 /* mention.c in Sources */,
+				7FFAC59A629355E8620D1587 /* wikilink.c in Sources */,
+				A60FA030BCFEF31E902564D7 /* hashtag.c in Sources */,
+				D46DDF1D7F4C8555B6E488BF /* math_ext.c in Sources */,
+				5C6DEA68C3B24B85F4232E7A /* emoji_utils.cpp in Sources */,
+				DCF780D27C416278A90FC49A /* cmark_ctype.c in Sources */,
+				B181F09934AE8D1B3F4F0D4F /* inlines.c in Sources */,
+				3C1309DB302390385F1CF79A /* Log.swift in Sources */,
+				F69ECEC976D45DCB1032A20C /* plaintext.c in Sources */,
+				07FA0B381F169E0B0DE6C0F6 /* MIMEtype.c in Sources */,
+				E7070614BC5163919598CB31 /* node.c in Sources */,
+				9A6682BC6FC321FC322B83A1 /* tagfilter.c in Sources */,
+				1B1CE0B5843B54FBA56D015C /* scanners.c in Sources */,
+				334ECBBA6A2568B24E31EE1B /* Settings+render.swift in Sources */,
+				D713BA7896128C1C32118AAF /* registry.c in Sources */,
+				B3BF38120D581963F82E7409 /* emoji.c in Sources */,
+				94518C9C566789DC2E1AF969 /* latex.c in Sources */,
+				B29676EBC38C38A61D26A82D /* houdini_html_u.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2124,33 +2124,33 @@
 			target = 83D9CCA027A12F3100E86BC9 /* libpcre2 */;
 			targetProxy = 83D9CF1727A1336E00E86BC9 /* PBXContainerItemProxy */;
 		};
-		4B0042A3BB1677CE1B5410C6 /* PBXTargetDependency */ = {
+		FE086721BDB9B3D1543AE041 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 834A4F7429E9250800692964 /* cmark-headers */;
-			targetProxy = E59080DE8D44622DA5739454 /* PBXContainerItemProxy */;
+			targetProxy = A94495C0E1451116336D8519 /* PBXContainerItemProxy */;
 		};
-		2C3215B757B90ED7786794F5 /* PBXTargetDependency */ = {
+		B3189BE2D4202FB80D90DB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 83D9CCA027A12F3100E86BC9 /* libpcre2 */;
-			targetProxy = 99E47A1A336637CE3715BBDE /* PBXContainerItemProxy */;
+			targetProxy = 17A76885B6C64065DEB823B5 /* PBXContainerItemProxy */;
 		};
-		9575E56713DB0DE2BDCDD2FE /* PBXTargetDependency */ = {
+		4A68471C4EAA1B87AC8031B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 83D9CF0F27A1334800E86BC9 /* libjpcre2 */;
-			targetProxy = 04E71B8E241371C84EA00D35 /* PBXContainerItemProxy */;
+			targetProxy = 0B48B3351DADCA9DCB274C77 /* PBXContainerItemProxy */;
 		};
-		6503681462D2987C58BB4767 /* PBXTargetDependency */ = {
+		C622D7DDCACDA0201FF70060 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2358EF7D7EC61C0BE7151AFA /* SwiftSoup */;
+			productRef = A97E6850D44CF036BF646904 /* SwiftSoup */;
 		};
-		3A18B2E9BE8C8429B1E8E71E /* PBXTargetDependency */ = {
+		2557C3FD11B062EEC1036B86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = CF008FD7404FB7A93FA9BA5B /* Yams */;
+			productRef = 43B9B31A8371795AF8D2C6A0 /* Yams */;
 		};
-		753FCD286C7324631B7728AF /* PBXTargetDependency */ = {
+		1EE01358DA053446691550C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "highlight-wrapper";
-			targetProxy = 408144DF01207B7CA6F8FEB8 /* PBXContainerItemProxy */;
+			targetProxy = 46A98F2ED32816395DB250B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2894,7 +2894,7 @@
 			};
 			name = Release;
 		};
-		2B94F443BD3702AC785D59D0 /* Debug */ = {
+		3B6C3128DF467CE1DD63D7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
@@ -2902,12 +2902,12 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(TARGET_NAME)";
 				AUTOMATION_APPLE_EVENTS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CURRENT_PROJECT_VERSION = 58;
 				DEAD_CODE_STRIPPING = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
 				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
 				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
@@ -2947,7 +2947,7 @@
 			};
 			name = Debug;
 		};
-		CB701B913A02DE732ABE4549 /* Release */ = {
+		D1DB294ED4DF2F60E2BAE7F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
@@ -2955,12 +2955,12 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(TARGET_NAME)";
 				AUTOMATION_APPLE_EVENTS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CURRENT_PROJECT_VERSION = 58;
 				DEAD_CODE_STRIPPING = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
 				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
 				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
@@ -3075,11 +3075,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC879E4DC1FD01F4B10C5EE8 /* Build configuration list for PBXNativeTarget "QLMarkdown Viewer" */ = {
+		69761D5409ADB4B5A99ECE2B /* Build configuration list for PBXNativeTarget "QLMarkdown Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B94F443BD3702AC785D59D0 /* Debug */,
-				CB701B913A02DE732ABE4549 /* Release */,
+				3B6C3128DF467CE1DD63D7D7 /* Debug */,
+				D1DB294ED4DF2F60E2BAE7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3212,22 +3212,22 @@
 			package = 8382D054266403B000210A0A /* XCRemoteSwiftPackageReference "Yams" */;
 			productName = Yams;
 		};
-		0406DF0F9640A5A43797B383 /* Yams */ = {
+		5CA65270A42F92688FBA59AD /* Yams */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8382D054266403B000210A0A /* XCRemoteSwiftPackageReference "Yams" */;
 			productName = Yams;
 		};
-		87CD2E8B5D5B806D624B56B4 /* SwiftSoup */ = {
+		C44B79FBEEA9F4A5C2299D58 /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 830B5B3A272D68E500378FFE /* XCRemoteSwiftPackageReference "SwiftSoup" */;
 			productName = SwiftSoup;
 		};
-		2358EF7D7EC61C0BE7151AFA /* SwiftSoup */ = {
+		A97E6850D44CF036BF646904 /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 830B5B3A272D68E500378FFE /* XCRemoteSwiftPackageReference "SwiftSoup" */;
 			productName = SwiftSoup;
 		};
-		CF008FD7404FB7A93FA9BA5B /* Yams */ = {
+		43B9B31A8371795AF8D2C6A0 /* Yams */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8382D054266403B000210A0A /* XCRemoteSwiftPackageReference "Yams" */;
 			productName = Yams;
