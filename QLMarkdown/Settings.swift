@@ -1177,7 +1177,9 @@ extension Settings {
     
     /// Get the path of folder with `highlight` support files.
     func getHighlightSupportPath() -> String? {
-        if let cache = Self.syntaxHighlightSupportCacheUrl, FileManager.default.fileExists(atPath: cache.path) {
+        // The cache can exist but be unreadable: an app outside the App Group (as the viewer)
+        // is denied access to the group container by the system.
+        if let cache = Self.syntaxHighlightSupportCacheUrl, FileManager.default.isReadableFile(atPath: cache.appendingPathComponent("filetypes.conf").path) {
             return cache.path
         }
         
