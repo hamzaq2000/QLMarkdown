@@ -10,9 +10,18 @@ import OSLog
 class ViewerWindowController: NSWindowController, NSWindowDelegate, NSMenuItemValidation {
     private static let zoomKey = "pageZoom"
     private static let zoomSteps: [CGFloat] = [0.5, 0.67, 0.75, 0.8, 0.9, 1, 1.1, 1.25, 1.5, 1.75, 2, 2.5, 3]
-    /// Emitted after the document styles: the bundled style frames the content with a border
-    /// in wide windows, which suits the Quick Look panel but not a document window.
-    private static let viewerStyle = "<style type='text/css'>article { border: none; }</style>"
+    /// Emitted after the document styles, adapting the Quick Look layout to a document window:
+    /// - no border around the content (the bundled style frames it in wide windows);
+    /// - the vertical margins grow with the side margins once the window is wider than the
+    ///   column, capped by the window height so short windows stay compact.
+    private static let viewerStyle = """
+        <style type='text/css'>
+        article {
+            border: none;
+            padding-block: clamp(32px, min(32px + (100vw - var(--content-max-width)) / 12, 8vh), 96px);
+        }
+        </style>
+        """
 
     private let webView: WKWebView
     private let container: FindBarContainerView
