@@ -10,6 +10,9 @@ import OSLog
 class ViewerWindowController: NSWindowController, NSWindowDelegate, NSMenuItemValidation {
     private static let zoomKey = "pageZoom"
     private static let zoomSteps: [CGFloat] = [0.5, 0.67, 0.75, 0.8, 0.9, 1, 1.1, 1.25, 1.5, 1.75, 2, 2.5, 3]
+    /// Emitted after the document styles: the bundled style frames the content with a border
+    /// in wide windows, which suits the Quick Look panel but not a document window.
+    private static let viewerStyle = "<style type='text/css'>article { border: none; }</style>"
 
     private let webView: WKWebView
     private let container: FindBarContainerView
@@ -116,7 +119,7 @@ class ViewerWindowController: NSWindowController, NSWindowDelegate, NSMenuItemVa
             os_log("Unable to render %{public}@: %{public}@", log: OSLog.rendering, type: .error, markdownUrl.path, error.localizedDescription)
             body = "<p>Unable to render the file: \(error.localizedDescription)</p>"
         }
-        html = settings.getCompleteHTML(title: url.lastPathComponent, body: body)
+        html = settings.getCompleteHTML(title: url.lastPathComponent, body: body, header: Self.viewerStyle)
         webView.loadHTMLString(html, baseURL: markdownUrl.deletingLastPathComponent())
         watch(file: markdownUrl)
     }
