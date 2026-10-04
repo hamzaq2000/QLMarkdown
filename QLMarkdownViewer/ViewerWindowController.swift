@@ -13,12 +13,15 @@ class ViewerWindowController: NSWindowController, NSWindowDelegate, NSMenuItemVa
     /// Emitted after the document styles, adapting the Quick Look layout to a document window:
     /// - no border around the content (the bundled style frames it in wide windows);
     /// - the vertical margins grow with the side margins once the window is wider than the
-    ///   column, capped by the window height so short windows stay compact.
+    ///   column, capped by the window height so short windows stay compact; the bottom one is
+    ///   larger, as in book page layouts, so it does not read as cramped.
     private static let viewerStyle = """
         <style type='text/css'>
         article {
             border: none;
-            padding-block: clamp(32px, min(32px + (100vw - var(--content-max-width)) / 12, 8vh), 96px);
+            --viewer-margin-top: clamp(32px, min(32px + (100vw - var(--content-max-width)) / 12, 8vh), 96px);
+            padding-top: var(--viewer-margin-top);
+            padding-bottom: calc(var(--viewer-margin-top) * 1.9);
         }
         </style>
         """
