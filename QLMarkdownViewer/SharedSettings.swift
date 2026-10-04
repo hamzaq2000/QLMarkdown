@@ -29,6 +29,7 @@ enum SharedSettings {
         }
         // The credits footer is meant for the Quick Look panel, not for a document window.
         settings.about = false
+        settings.appearance = ViewerAppearance.current.renderAppearance
         // Read the custom style now, as the Quick Look extension does.
         settings.customCSSCode = settings.getCustomCSSCode()
         settings.customCSSFetched = true

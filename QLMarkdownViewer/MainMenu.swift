@@ -13,9 +13,6 @@ enum MainMenu {
         main.addSubmenu("") {
             $0.addItem(withTitle: "About \(appName)", action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
             $0.addItem(.separator())
-            $0.addItem(withTitle: "QLMarkdown Settings…", action: #selector(AppDelegate.openQLMarkdownSettings(_:)), keyEquivalent: ",")
-            $0.addItem(withTitle: "Reload Settings", action: #selector(AppDelegate.reloadSettings(_:)), keyEquivalent: "")
-            $0.addItem(.separator())
             let services = NSMenu()
             $0.addItem(withTitle: "Services", action: nil, keyEquivalent: "").submenu = services
             NSApp.servicesMenu = services
@@ -69,6 +66,12 @@ enum MainMenu {
             zoomIn.isHidden = true
             zoomIn.allowsKeyEquivalentWhenHidden = true
             $0.addItem(withTitle: "Zoom Out", action: #selector(ViewerWindowController.zoomOut(_:)), keyEquivalent: "-")
+            $0.addItem(.separator())
+            let appearance = NSMenu(title: "Appearance")
+            for option in ViewerAppearance.allCases {
+                appearance.addItem(withTitle: option.title, action: #selector(AppDelegate.chooseAppearance(_:)), keyEquivalent: "").representedObject = option.rawValue
+            }
+            $0.addItem(withTitle: "Appearance", action: nil, keyEquivalent: "").submenu = appearance
             $0.addItem(.separator())
             $0.addItem(withTitle: "Enter Full Screen", action: #selector(NSWindow.toggleFullScreen(_:)), keyEquivalent: "f").keyEquivalentModifierMask = [.command, .control]
         }

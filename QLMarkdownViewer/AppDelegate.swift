@@ -5,11 +5,10 @@
 
 import Cocoa
 
-class AppDelegate: NSObject, NSApplicationDelegate {
-    static let qlMarkdownBundleIdentifier = "org.sbarex.QLMarkdown"
-
+class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
     func applicationWillFinishLaunching(_ notification: Notification) {
         NSApp.mainMenu = MainMenu.build()
+        NSApp.appearance = ViewerAppearance.current.appAppearance
         SharedSettings.reload()
         SharedSettings.startMonitoring()
     }
@@ -39,19 +38,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
-    @objc func openQLMarkdownSettings(_ sender: Any?) {
-        guard let url = NSWorkspace.shared.urlForApplication(withBundleIdentifier: Self.qlMarkdownBundleIdentifier) else {
-            let alert = NSAlert()
-            alert.messageText = NSLocalizedString("QLMarkdown is not installed.", comment: "")
-            alert.informativeText = NSLocalizedString("The viewer uses the settings of the QLMarkdown app.", comment: "")
-            alert.runModal()
+    @objc func chooseAppearance(_ sender: NSMenuItem) {
+        guard let appearance = sender.representedObject as? String, let appearance = ViewerAppearance(rawValue: appearance) else {
             return
         }
-        NSWorkspace.shared.openApplication(at: url, configuration: NSWorkspace.OpenConfiguration())
-    }
-
-    @objc func reloadSettings(_ sender: Any?) {
+        ViewerAppearance.current = appearance
+        NSApp.appearance = appearance.appAppearance
         SharedSettings.reload()
         NotificationCenter.default.post(name: SharedSettings.didReload, object: nil)
+    }
+
+    func validateMenuItem(_ menuItem: NSMenuItem) -> Bool {
+        if menuItem.action == #selector(chooseAppearance(_:)) {
+            menuItem.state = menuItem.representedObject as? String == ViewerAppearance.current.rawValue ? .on : .off
+        }
+        return true
     }
 }
