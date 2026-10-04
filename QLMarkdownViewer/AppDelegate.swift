@@ -13,25 +13,15 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         SharedSettings.startMonitoring()
     }
 
-    func applicationDidFinishLaunching(_ notification: Notification) {
-        // Documents passed at launch (Finder, `open -a`) are opened before this point, restored
-        // windows right after: show the open panel only when nothing is on screen.
-        DispatchQueue.main.async {
-            if NSDocumentController.shared.documents.isEmpty {
-                NSDocumentController.shared.openDocument(nil)
-            }
-        }
-    }
-
+    // AppKit asks for an untitled document only on a launch without documents to open or
+    // windows to restore, and on a Dock click with no window open: show the open panel instead.
     func applicationShouldOpenUntitledFile(_ sender: NSApplication) -> Bool {
-        return false
+        return true
     }
 
-    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
-        if !flag {
-            NSDocumentController.shared.openDocument(nil)
-        }
-        return false
+    func applicationOpenUntitledFile(_ sender: NSApplication) -> Bool {
+        NSDocumentController.shared.openDocument(nil)
+        return true
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
